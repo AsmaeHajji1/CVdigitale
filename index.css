@@ -451,3 +451,458 @@ gap: 37px;
     margin-left: 1%;
   }
 }
+body{
+  height: 100%;
+}
+
+.entete {
+  padding: 2rem;
+  position: relative;
+  margin-top: -1%;
+  z-index: 1;
+  background-color: #212425;
+  height: 0rem;
+  width: 70rem;
+  border-radius: 1rem;
+  margin-left: 6%;
+  display: flex;
+  justify-content:space-between;
+}
+.gauche
+{
+  display: flex;
+  gap:0.5rem;
+  margin-top: -1.5%;
+}
+#vid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+h1
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  color:white;
+  text-align: start;  
+  margin: 0%;
+  font-size: 23px;
+  margin-bottom:4%;
+}
+.h
+{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  color: #a58f8f;
+  text-align: center;  
+  margin: 0%;
+  font-size: 22px;
+
+}
+.p1,.p2
+{
+  color: white;
+  margin: 0%;
+  letter-spacing: 0.5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+
+}
+.p1
+{
+  color:#00bcd4;;
+}
+.p1:hover
+{
+  scale:1.2;
+  cursor:pointer;
+ 
+}
+.p2:hover
+{ 
+scale:1.2;
+cursor:pointer;
+
+}
+.droite
+{
+  display: flex;
+  gap:1rem;
+  margin-top: -0.5%;
+}
+.content1
+{
+display: flex;
+justify-content: space-around;
+}
+.page
+{
+display: flex;
+flex-direction: column;
+gap:4rem;
+}
+.first
+{
+display: flex;
+margin-left: 6%;
+}
+.rectf
+{
+height: 20rem;
+width: 42rem;
+background-color:#212425;
+border-radius: 3%;
+display: flex;
+justify-content:space-evenly;
+}
+.contenu
+{ margin-top: 4%;
+display: flex;
+flex-direction: column;
+gap: 16px
+}
+.prf
+{ margin-top: 8%;
+height: 12rem;
+width: 12rem;
+background-color: gray;
+animation: 1s;
+box-shadow: 0 0 20px rgb(204 214 215 /50%);
+border-radius:2%;
+margin-right: 2%;
+}
+.image
+{
+  height: 12rem;
+width: 12rem;
+border-radius:2%;
+}
+.nom
+{
+text-align: center;
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.id 
+{
+    color: white;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+.bc
+{
+
+font-size:19px;
+}
+.second
+{
+  width: fit-content;
+  background-color: #212425;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.cadre:hover{
+cursor: pointer;
+background-color: #00bcd4;
+
+}
+.a{
+min-width: 26rem;
+  padding: 2px;
+  min-height: 14rem;
+}
+.d
+{
+width:40rem;
+}
+.s
+{
+text-align: center;
+margin-top:2%;
+font-size:26px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #fff;
+font-weight: bold;
+  margin-bottom: 30px;
+}
+.corps
+{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.cerc
+{
+height: 0.5rem;
+width:0.5rem;
+border-radius: 50%;
+background-color: gray;
+}
+.cadre
+{
+height: 4rem;
+  width: fit-content;
+  background-color: #333;
+  box-shadow: 0 5px 10px rgba(0, 188, 212, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  border-radius: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10rem;
+}
+.ligne1
+{
+display: flex;
+gap:0.5rem;
+}
+h2{
+margin: 0%;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+color:#fff;
+}
+
+.boooody
+{
+display: flex;
+flex-direction: column;
+gap:3rem;
+}
+.corps1
+{
+display: flex;
+flex-direction: column;
+margin-left:4%;
+}
+.bio
+{
+  margin-bottom: 3%;
+}
+.content2
+{
+margin-left: 4pc;
+display: flex;
+gap: 3rem;
+}
+.prop{
+font-weight: 100;
+}
+.f
+{
+color:#00bcd4;
+}
+.d
+{
+background-color: #212425;
+}
+.content3
+{
+height: 20rem;
+width:45rem;
+background-color:#212425;
+border-radius: 3%;
+margin-left: 5%;
+display: flex;
+flex-direction: column;
+}
+.PA
+{
+color:#00bcd4;
+margin-bottom: 0%;
+}
+.expli
+{
+color: #427f9d;;
+}
+.lien 
+{
+  color: #89a5a0;
+}
+.paragraphe
+{
+display: flex;
+flex-direction: column;
+gap: 37px;
+}
+.homo
+{
+  display: flex;
+  margin-left:8%;
+}
+.recverti
+{
+  height:9rem;
+  width:0.25rem;
+  background-color: #00bcd4;
+}
+.ch 
+{
+  color: #00bcd4;
+}
+.left
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+.partie3
+{
+  display: flex;
+  gap:7%
+}
+.content4
+{
+  height:16rem;
+  width:22rem;
+  background-color:#212425;
+  border-radius: 3%;
+}
+.contact
+{
+  color: #00bcd4;
+}
+.partiebas
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+}
+.l
+{
+  color: #00bcd4;
+}
+.right
+{
+  display:none;
+}
+
+@media screen and (max-width:1024px ) {
+   .content4
+   {
+     height: 20rem;
+   }
+    .content3
+    { height:23rem;
+    }
+   .rectf
+   {
+     margin-top: 15%;
+   }
+    .partie3
+    {
+    margin-left: -4%;
+    gap: 2%;
+    }
+    .content2
+    {
+      margin-left: -1pc;
+    }
+    .a
+    {
+    min-width: 25rem;}
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 19%;
+    min-height: 2pc;
+    width: fit-content;
+    margin-top: -1%;
+  }
+    .droite
+    {
+      display: none;
+    }
+    .petitrec
+   { 
+    height: 8px;
+    width: 55px;
+    background-color:#fff;
+   }
+   .content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3pc;
+    margin-left: -4pc;
+    margin-top: -95px;
+}
+     .first
+     {
+      justify-content: center;
+     }
+     .page {
+      display: flex;
+      flex-direction: column;
+      gap: 0rem; }
+    
+
+.second {
+  width: fit-content;
+  background-color: #212425;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-right: 0%;}
+}
+@media screen and (max-width:414px)
+{  body
+     {
+      width: 132vh;
+     }
+     .right
+     {
+      margin-right: 5%;
+     }
+     .content1
+     {
+      margin-left: 2pc;
+     }
+     .first
+     {
+      margin-left: 0%;
+     }
+     .partie3
+     {
+      margin-left: -1%;
+     }
+}
+@media screen and (max-width:430px)
+{
+  body 
+  {
+    width: 134vh;
+  }
+  .right
+  {
+    margin-right: 1%;
+  }
+  .content1
+  {
+    margin-left: 4pc;
+  }
+  .first
+  {
+    margin-left: 0%;
+  }
+  .content2
+  {
+    gap: 0rem;
+    margin-left: 2pc;
+  }
+  .partie3
+  {
+    margin-left: 1%;
+  }
+}
+
+
